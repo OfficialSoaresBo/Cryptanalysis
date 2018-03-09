@@ -1,0 +1,11 @@
+We first create a text file named Manifest.txt with the following contents:
+
+	Main-Class: Main
+
+We then create a JAR file named MyJar.jar by entering the following command:
+
+	jar cfm cracker.jar Manifest.txt Main.class
+
+
+Run Jar
+java -jar MyJar.jar
